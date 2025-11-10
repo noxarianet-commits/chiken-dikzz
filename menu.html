@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Chiken Dikzz</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-drumstick-bite logo-icon"></i>
+                    <h1>Chiken Dikzz</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu-page">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Menu Lengkap</h2>
+                <p>Pilihan ayam goreng terbaik untuk Anda</p>
+            </div>
+
+            <!-- Ayam Utama -->
+            <div class="menu-category" data-aos="fade-up">
+                <h3>Ayam Utama</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Dada">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Ayam Dada</h4>
+                            <p>Potongan dada ayam dengan daging yang lembut dan juicy</p>
+                            <div class="menu-price">
+                                <span>Rp 25.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Ayam Dada', 'Rp 25.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Paha">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Ayam Paha</h4>
+                            <p>Paha ayam dengan tekstur yang gurih dan beraroma</p>
+                            <div class="menu-price">
+                                <span>Rp 22.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Ayam Paha', 'Rp 22.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Sayap">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Ayam Sayap</h4>
+                            <p>Sayap ayam crispy dengan bumbu spesial</p>
+                            <div class="menu-price">
+                                <span>Rp 18.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Ayam Sayap', 'Rp 18.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Utuh">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Ayam Utuh</h4>
+                            <p>Ayam utuh dengan berbagai pilihan bumbu</p>
+                            <div class="menu-price">
+                                <span>Rp 85.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Ayam Utuh', 'Rp 85.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paket Nasi -->
+            <div class="menu-category" data-aos="fade-up">
+                <h3>Paket dengan Nasi</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Paket Dada + Nasi">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Paket Dada + Nasi</h4>
+                            <p>Ayam dada dengan nasi putih hangat</p>
+                            <div class="menu-price">
+                                <span>Rp 30.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Paket Dada + Nasi', 'Rp 30.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Paket Paha + Nasi">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Paket Paha + Nasi</h4>
+                            <p>Ayam paha dengan nasi putih hangat</p>
+                            <div class="menu-price">
+                                <span>Rp 27.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Paket Paha + Nasi', 'Rp 27.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Paket Komplit">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Paket Komplit</h4>
+                            <p>Ayam utuh + nasi untuk 4-5 orang</p>
+                            <div class="menu-price">
+                                <span>Rp 95.000</span>
+                                <button class="btn-order" onclick="orderWhatsApp('Paket Komplit', 'Rp 95.000')">
+                                    <i class="fab fa-whatsapp"></i> Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Chiken Dikzz</h3>
+                    <p>Ayam goreng premium dengan cita rasa terbaik untuk keluarga Indonesia.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@chikendikzz.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Kami</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chiken Dikzz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiken Dikzz - Ayam Goreng Terbaik</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-drumstick-bite logo-icon"></i>
+                    <h1>Chiken Dikzz</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h2>Chiken Dikzz</h2>
+                <p>Ayam Goreng Premium dengan Cita Rasa Terbaik</p>
+                <button class="btn" onclick="quickOrder()">
+                    <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Keunggulan Kami</h2>
+                <p>Mengapa memilih Chiken Dikzz?</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Bahan Segar</h3>
+                    <p>Menggunakan bahan-bahan pilihan terbaik dan segar</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-clock"></i>
+                    <h3>Cepat Saji</h3>
+                    <p>Proses pemasakan cepat tanpa mengorbankan kualitas</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-star"></i>
+                    <h3>Rasa Premium</h3>
+                    <p>Rasa ayam yang nikmat dengan bumbu rahasia</p>
+                </div>
+                 <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-clock"></i>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Proses pemasakan cepat tanpa mengorbankan kualitas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Menu Preview -->
+    <section class="popular-menu">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Menu Populer</h2>
+                <p>Pilihan terfavorit pelanggan kami</p>
+            </div>
+            <div class="menu-preview">
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Dada">
+                    <h3>Ayam Dada</h3>
+                    <p>Rp 25.000</p>
+                    <button class="btn-order" onclick="orderWhatsApp('Ayam Dada', 'Rp 25.000')">
+                        <i class="fab fa-whatsapp"></i> Pesan
+                    </button>
+                </div>
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Paha">
+                    <h3>Ayam Paha</h3>
+                    <p>Rp 22.000</p>
+                    <button class="btn-order" onclick="orderWhatsApp('Ayam Paha', 'Rp 22.000')">
+                        <i class="fab fa-whatsapp"></i> Pesan
+                    </button>
+                </div>
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ayam Sayap">
+                    <h3>Ayam Sayap</h3>
+                    <p>Rp 18.000</p>
+                    <button class="btn-order" onclick="orderWhatsApp('Ayam Sayap', 'Rp 18.000')">
+                        <i class="fab fa-whatsapp"></i> Pesan
+                    </button>
+                </div>
+            </div>
+            <div class="text-center" data-aos="fade-up">
+                <a href="menu.html" class="btn btn-outline">Lihat Semua Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Chiken Dikzz</h3>
+                    <p>Ayam goreng premium dengan cita rasa terbaik untuk keluarga Indonesia.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@chikendikzz.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Kami</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chiken Dikzz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
